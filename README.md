@@ -1,7 +1,7 @@
 # Assignment-Module-5_Part-4_Parul-Mital
 AI Solution Design for a Business Problem
 
-# Part 4: AI Solution Design Mini Project
+# Part 4: AI Solution Design for a Business Problem ( Mini Project)
 
  
 
