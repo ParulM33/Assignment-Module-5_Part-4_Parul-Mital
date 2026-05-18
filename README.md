@@ -115,7 +115,6 @@ The solution utilizes:
 The system follows a structured AI workflow from data collection to final diagnosis.
 
 📁 Refer to: 
-
 `diagrams/solution_architecture.png`
 
 
@@ -124,9 +123,7 @@ The system follows a structured AI workflow from data collection to final diagno
 
 ## Repository Structure
 
- 
 
-``
 
 part-4-ai-solution-design/ │ ├── README.md ├── solution_report.md └── diagrams/ └── solution_architecture.png 
 
