@@ -13,7 +13,7 @@ Healthcare
 
 ### Problem Description
 
-In many hospitals, early detection of pneumonia using chest X-ray images is still largely dependent on manual analysis by radiologists. Due to increasing patient load, this process has become time-consuming and sometimes leads to delayed diagnosis, which can negatively impact patient outcomes.
+In many hospitals, early detection of pneumonia using chest X-ray images is still largely dependent on manual analysis by radiologists. Due to increasing patient load, this process has become time-consuming and sometimes leads to delayed diagnosis, affecting patient outcomes.
 
  
 
@@ -33,7 +33,7 @@ The key stakeholders involved in this problem include:
 
 ### Current Process
 
-At present, radiologists visually examine X-ray images to diagnose pneumonia. This process relies heavily on the experience and availability of medical professionals.
+At present, radiologists manually examine chest X-ray images to identify signs of pneumonia. This process relies heavily on the experience and availability of medical professionals.
 
  
 
@@ -47,15 +47,11 @@ At present, radiologists visually examine X-ray images to diagnose pneumonia. Th
 
 - Delays in treatment decisions can increase health risks
 
- 
 
 ---
-
  
-
 ## 3. AI Task Type
 
- 
 
 ### Selected Approach: Image Classification
 
@@ -67,12 +63,13 @@ This problem can be formulated as an **image classification task**, where the mo
 
 ### Justification
 
-- The input data consists of medical images (X-rays)
+This is an image classification problem because:
 
-- The output is a simple classification: **Normal or Pneumonia**
+- Input data consists of X-ray images 
 
-- Image classification techniques are well-suited for this type of problem
+- Output is a binary label: **Normal or Pneumonia** 
 
+- CNN models are well-suited for analyzing image data 
  
 
 ---
@@ -85,9 +82,9 @@ This problem can be formulated as an **image classification task**, where the mo
 
 ### Type of Data
 
-The solution requires **chest X-ray images** along with their corresponding diagnostic labels.
+- Chest X-ray images 
 
- 
+
 
 ### Nature of Data
 
@@ -117,7 +114,7 @@ The solution requires **chest X-ray images** along with their corresponding diag
 
 - Public datasets such as NIH Chest X-ray dataset
 
-- Hospital databases (subject to privacy and data access permissions)
+- Hospital databases/systems (subject to privacy and data access permissions)
 
  
 
@@ -201,7 +198,7 @@ CNNs are highly effective in extracting meaningful features from images. Using t
 
 ### Human Validation
 
-The AI system should act as a **support tool**, not a replacement. Final decisions should always be reviewed and confirmed by a qualified radiologist.
+The AI system should act as a **support tool**, not a replacement. Final diagnosis must be reviewed by a qualified radiologist.
 
  
 
@@ -265,7 +262,6 @@ Continuous monitoring and validation by medical experts is essential.
 
 ## 8. Final Solution Summary
 
- 
 
 ### Problem
 
@@ -275,7 +271,7 @@ Manual diagnosis of pneumonia from X-ray images is slow and prone to human error
 
 ### Proposed Solution
 
-Develop an AI-based image classification system using CNN to assist radiologists in identifying pneumonia.
+Develop a CNN-based image classification system to assist radiologists in detecting pneumonia from chest X-rays.
 
  
 
